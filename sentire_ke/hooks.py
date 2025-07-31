@@ -5,10 +5,20 @@ app_description = "Sentire KE payroll Customization"
 app_email = "karianyuapps@gmail.com"
 app_license = "mit"
 
-# Apps
-# ------------------
+app_icon = "drag"
+app_color = "grey"
+app_license = "GNU General Public License (v3)"
+required_apps = ["erpnext", "hrms"]
 
-# required_apps = []
+fixtures = [
+    {
+        "doctype": "Custom Field",
+        "filters": [               
+            ["is_system_generated", "=", 0],
+            ["module", "=", "Sentire Ke"],
+        ],
+    },
+    ]
 
 # Each item in the list will be shown as an app in the apps page
 # add_to_apps_screen = [
@@ -132,13 +142,30 @@ app_license = "mit"
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-# 	}
-# }
+doc_events = {
+    "Purchase Receipt": {
+        "on_submit": "sentire_ke.sentire_ke.doctype.api.update_item_price_list.update_item_prices"
+    },
+    "Purchase Invoice": {
+        "on_submit": "sentire_ke.sentire_ke.doctype.api.update_item_price_list.update_item_prices"
+    },
+    "Item": {
+        "before_save": "sentire_ke.sentire_ke.utils.get_tims_hscode.validate_mandatory_hscode"
+    },
+    "Item Group": {
+        "before_save": "sentire_ke.sentire_ke.utils.get_tims_hscode.validate_mandatory_hscode"
+    },
+    "Customer": {
+        "before_save": "sentire_ke.sentire_ke.overrides.customer.validate_customer_kra"
+    },
+    "Sales Order": {
+        "before_submit": "sentire_ke.sentire_ke.overrides.sales_doc.validate_customer_kra"
+    },
+    "Sales Invoice": {
+        "before_submit": "sentire_ke.sentire_ke.overrides.sales_doc.validate_customer_kra"
+    },
+    "Job Card": {"before_submit": "sentire_ke.sentire_ke.overrides.job_card.before_submit"},
+}
 
 # Scheduled Tasks
 # ---------------
