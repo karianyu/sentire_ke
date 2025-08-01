@@ -1,0 +1,192 @@
+{
+ "app": "sentire_ke",
+ "charts": [],
+ "content": "[{\"id\":\"lFoD5lNDQb\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"fu_Qea0T9L\",\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px;\\\"><b>Reports &amp; Masters</b></span>\",\"col\":12}},{\"id\":\"z-M1BRng7_\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>KENYA REPORTS</b></span>\",\"col\":12}},{\"id\":\"PxuakIdtG0\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Housing Levy Report\",\"col\":3}},{\"id\":\"8fczQOuD-W\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"P9A Tax Reduction Report\",\"col\":3}},{\"id\":\"uIhUG5K8sY\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Kenya HELB Report\",\"col\":3}},{\"id\":\"sNQQnfOZjQ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"SHIF Report\",\"col\":3}},{\"id\":\"GXSDtM-_OY\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"P10A Tax Report\",\"col\":3}},{\"id\":\"Qss5Fso4QY\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Bank Payroll Advice Report\",\"col\":3}}]",
+ "creation": "2025-08-01 08:19:41.914056",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "chart",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Sentire Kenya",
+ "link_type": "DocType",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "P10A Tax Report",
+   "link_count": 0,
+   "link_to": "Kenya P10 Tax Report",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "Salary Slip",
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "NSSF Report",
+   "link_count": 0,
+   "link_to": "Kenya NSSF Report",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "Salary Slip",
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "SHIF Report",
+   "link_count": 0,
+   "link_to": "Kenya SHIF Contribution",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "Salary Slip",
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "HELB Report",
+   "link_count": 0,
+   "link_to": "Kenya HELB Report",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "Salary Slip",
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "P10A Tax Report",
+   "link_count": 0,
+   "link_to": "Kenya P10 Tax Report",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "Salary Slip",
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "P9A Tax Reduction Report",
+   "link_count": 0,
+   "link_to": "Kenya P9A Tax Deduction Card Report",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "Salary Slip",
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Housing Levy Report",
+   "link_count": 0,
+   "link_to": "Kenya Housing Levy Contribution",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "Salary Slip",
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Kenya Payroll Register Report",
+   "link_count": 0,
+   "link_to": "Kenya Payroll Register Report",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "Salary Slip",
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Periodic Payroll Comparison",
+   "link_count": 0,
+   "link_to": "Periodic Payroll Comparison",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "Salary Slip",
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Bank Payroll Advice Report",
+   "link_count": 0,
+   "link_to": "Kenya Bank Payroll Advice Report",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "Salary Slip",
+   "type": "Link"
+  }
+ ],
+ "modified": "2025-08-01 11:30:26.617816",
+ "modified_by": "Administrator",
+ "module": "Sentire Ke",
+ "name": "Sentire Kenya",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "Salary Payout",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 23.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "P10A Tax Report",
+   "link_to": "Kenya P10 Tax Report",
+   "report_ref_doctype": "Salary Slip",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Bank Payroll Advice Report",
+   "link_to": "Kenya Bank Payroll Advice Report",
+   "report_ref_doctype": "Salary Slip",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Housing Levy Report",
+   "link_to": "Kenya Housing Levy Contribution",
+   "report_ref_doctype": "Salary Slip",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "P9A Tax Reduction Report",
+   "link_to": "Kenya P9A Tax Deduction Card Report",
+   "report_ref_doctype": "Salary Slip",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Kenya HELB Report",
+   "link_to": "Kenya HELB Report",
+   "report_ref_doctype": "Salary Slip",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "SHIF Report",
+   "link_to": "Kenya SHIF Contribution",
+   "report_ref_doctype": "Salary Slip",
+   "type": "Report"
+  }
+ ],
+ "title": "Sentire Kenya",
+ "type": "Workspace"
+}
